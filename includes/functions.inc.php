@@ -1,7 +1,7 @@
 <?php
 
 function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
-    $result;
+    $result = '';
     if(empty($name) || empty($email) || empty($username) || empty($pwd) || empty($pwdRepeat)) {
         $result = true;
     } else {
@@ -11,7 +11,7 @@ function emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) {
 }
 
 function invalidUid($username) {
-    $result;
+    $result = '';
     if(!preg_match("/^[a-zA-Z0-9]*$/", $username)) {
         $result = true;
     } else {
@@ -21,7 +21,7 @@ function invalidUid($username) {
 }
 
 function invalidEmail($email) {
-    $result;
+    $result = '';
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $result = true;
     } else {
@@ -31,7 +31,7 @@ function invalidEmail($email) {
 }
 
 function pwdMatch($pwd, $pwdRepeat) {
-    $result;
+    $result = '';
     if($pwd !== $pwdRepeat) {
         $result = true;
     } else {
