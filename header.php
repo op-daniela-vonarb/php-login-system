@@ -20,8 +20,10 @@
         </div>
         <ul class="menu-member">
             <li><a href="#" class="header-login-a">LOGOUT</a></li>
-            <li><a href="#">SIGN UP</a></li>
-            <li><a href="#" class="header-login-a">LOGIN</a></li>
+            <li><a href="signup.php">SIGN UP</a></li>
+            <li><a href="login.php" class="header-login-a">LOGIN</a></li>
         </ul>
     </nav>
 </header>
+    <section class="index-login">
+        <div class="wrapper">
