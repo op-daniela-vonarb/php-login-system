@@ -6,7 +6,7 @@
     <div class="index-login-signup">
         <h4>SIGN UP</h4>
         <p>Don't have an account yet? Sign up here!</p>
-        <form action="signup.inc.php" method="post">
+        <form action="includes/signup.inc.php" method="post">
             <input type="text" name="name" placeholder="Full name...">
             <input type="text" name="email" placeholder="Email...">
             <input type="text" name="uid" placeholder="Username...">
