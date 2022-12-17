@@ -2,7 +2,6 @@
     include_once 'header.php';
 ?>
  
-
     <div class="index-login-signup">
         <h4>SIGN UP</h4>
         <p>Don't have an account yet? Sign up here!</p>
